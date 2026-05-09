@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <a class="netflix-logo" href="#" aria-label="Netflix home">
+                <img src="./netflix-logo.webp" alt="Netflix">
+            </a>
+
+            <nav class="nav-left" aria-label="Primary navigation">
+                <a href="#" class="active">Home</a>
+                <a href="#">TV Shows</a>
+                <a href="#">Movies</a>
+                <a href="#">New & Popular</a>
+                <a href="#">My List</a>
+                <a href="#">Browse by Language</a>
+            </nav>
+
+            <div class="nav-right">
+                <label class="search-container" aria-label="Search titles">
+                    <span class="search-icon">Search</span>
+                    <input type="search" class="search-input" placeholder="Titles, people, genres">
+                </label>
+
+                <div class="profile-dropdown">
+                    <button class="profile-icon" type="button" aria-label="Open profile menu">N</button>
+                    <div class="dropdown-menu">
+                        <a href="#">Profile</a>
+                        <a href="#">Account</a>
+                        <a href="#">Help Center</a>
+                        <a href="#">Sign Out</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero-section" aria-label="Featured title">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="hero-kicker">N Series</div>
+            <h1 class="hero-title">Money Heist</h1>
+            <p class="hero-description">
+                Eight thieves take hostages and lock themselves in the Royal Mint of Spain as a criminal mastermind manipulates the police to carry out his plan.
+            </p>
+            <div class="hero-buttons">
+                <button class="btn btn-play" type="button">Play</button>
+                <button class="btn btn-info" type="button">More Info</button>
+            </div>
+        </div>
+    </section>
+
+    <main id="catalog" aria-label="Netflix catalog rows"></main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-column">
+                <h4>Questions?</h4>
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Investor Relations</a></li>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Speed Test</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Help</h4>
+                <ul>
+                    <li><a href="#">Help Center</a></li>
+                    <li><a href="#">Jobs</a></li>
+                    <li><a href="#">Cookie Preferences</a></li>
+                    <li><a href="#">Legal Notices</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Account</h4>
+                <ul>
+                    <li><a href="#">Account</a></li>
+                    <li><a href="#">Ways to Watch</a></li>
+                    <li><a href="#">Corporate Information</a></li>
+                    <li><a href="#">Only on Netflix</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Media</h4>
+                <ul>
+                    <li><a href="#">Media Center</a></li>
+                    <li><a href="#">Terms of Use</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Audio Description</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>Netflix Clone. Artwork is loaded from publicly accessible movie database image URLs for study/demo use.</p>
+        </div>
+    </footer>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
